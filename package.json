@@ -7,7 +7,8 @@
   "author": "Aayush Kapoor <xeoneux@icloud.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "pm2 start lib/server.js --watch --interpreter babel-node"
+    "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "webpack": "webpack --watch --debug"
   },
   "babel": {
     "presets": [
@@ -17,10 +18,14 @@
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "ejs": "^2.5.7",
     "express": "^4.15.4",
-    "pm2": "^2.6.1"
+    "pm2": "^2.6.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.5"
   }
 }
