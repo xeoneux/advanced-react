@@ -28,6 +28,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "ejs": "^2.5.7",
     "express": "^4.15.4",
+    "lodash.debounce": "^4.0.8",
     "pm2": "^2.6.1",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
